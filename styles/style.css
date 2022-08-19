@@ -192,26 +192,5 @@ span{
     .courses{
         display: grid;
     }
-    /* tablet */
-
-    @media only screen and (min-width:689px) and (min-width:1080px) {
-
-        .container{
-            width: 100%;
-        }
-        .players{
-            grid-template-columns: repeat(2,1fr);
-        }
-        .player, .blog{
-            flex-direction: column;
-        }
-        .blogs{
-            
-            grid-template-columns: repeat(2,1fr);
-        }
-       
-
-
-        
-    }
+    
 }
